@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="30.952" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Login" name="Successful Login with Valid Credentials" time="15.93">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at StepDefination.CloseStepDef.close_browser(CloseStepDef.java:8)
+	at ✽.close browser(file:///C:/Java_Selenium_BDD_Framework/BDDFramework/src/test/resources/Features/LoginFeature.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User Launch Chrome browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Log out link.............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................failed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Successful Login with Valid Credentials - Example #1.1" time="14.373">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at StepDefination.CloseStepDef.close_browser(CloseStepDef.java:8)
+	at ✽.close browser(file:///C:/Java_Selenium_BDD_Framework/BDDFramework/src/test/resources/Features/LoginFeature.feature:23)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User Launch Chrome browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Log out link.............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................failed
+]]></system-out>
+</testcase>
+</testsuite>
