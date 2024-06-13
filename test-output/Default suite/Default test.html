@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 13 17:09:36 IST 2024</td>
+<td>Started on:</td><td>Fri Jun 14 01:01:43 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>151 seconds (151769 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45664 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,127 +77,71 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestRunner.RunnerLogin.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Login"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link&quot; href=&quot;/logout&quot;&gt;...&lt;/a&gt; is not clickable at point (916, 28). Other element would receive the click: &lt;div id=&quot;ajaxBusy&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=126.0.6478.56)
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa2463f436ccb9f5b6cc59fe1d13852f, clickElement {id=f.30EB23EEDDE5996C077A1269FAC8A29E.d.57BB8FCD116D38EF7596054271A72970.e.18}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52589/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (aa2463f436ccb9f5b6cc59fe1d13852f)] -&gt; link text: Logout]
-Session ID: aa2463f436ccb9f5b6cc59fe1d13852f
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54512/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy39.click(Unknown Source)
-	at PageObject.LoginPage.clickonlogout(LoginPage.java:37)
-	at StepDefination.LoginStepDef.user_click_on_log_out_link(LoginStepDef.java:108)
-	at ✽.User click on Log out link(file:///C:/Java_Selenium_BDD_Framework/BDDFramework/src/test/resources/Features/LoginFeature.feature:21)
-</pre></div><a href='#' onClick='toggleBox("stack-trace154146418", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace154146418'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link&quot; href=&quot;/logout&quot;&gt;...&lt;/a&gt; is not clickable at point (916, 28). Other element would receive the click: &lt;div id=&quot;ajaxBusy&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=126.0.6478.56)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+	at StepDefination.LoginStepDef.addScreenShot(LoginStepDef.java:218)
+</pre></div><a href='#' onClick='toggleBox("stack-trace99195804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace99195804'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa2463f436ccb9f5b6cc59fe1d13852f, clickElement {id=f.30EB23EEDDE5996C077A1269FAC8A29E.d.57BB8FCD116D38EF7596054271A72970.e.18}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52589/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (aa2463f436ccb9f5b6cc59fe1d13852f)] -&gt; link text: Logout]
-Session ID: aa2463f436ccb9f5b6cc59fe1d13852f
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54512/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy39.click(Unknown Source)
-	at PageObject.LoginPage.clickonlogout(LoginPage.java:37)
-	at StepDefination.LoginStepDef.user_click_on_log_out_link(LoginStepDef.java:108)
-	at ✽.User click on Log out link(file:///C:/Java_Selenium_BDD_Framework/BDDFramework/src/test/resources/Features/LoginFeature.feature:21)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+	at StepDefination.LoginStepDef.addScreenShot(LoginStepDef.java:218)
 </pre></div></td>
-<td>66</td>
+<td>10</td>
 <td>TestRunner.RunnerLogin@24269709</td></tr>
 <tr>
 <td title='TestRunner.RunnerLogin.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Login"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link&quot; href=&quot;/logout&quot;&gt;...&lt;/a&gt; is not clickable at point (916, 28). Other element would receive the click: &lt;div id=&quot;ajaxBusy&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=126.0.6478.56)
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [07ec00a49d1b9c87d3c685bd59e2ecd8, clickElement {id=f.FC6AC96546A2237D0561FF91C00442A3.d.6C99B07F7080494E745FB98CFBA7CD0D.e.18}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52507/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (07ec00a49d1b9c87d3c685bd59e2ecd8)] -&gt; link text: Logout]
-Session ID: 07ec00a49d1b9c87d3c685bd59e2ecd8
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54475}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54475/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy39.click(Unknown Source)
-	at PageObject.LoginPage.clickonlogout(LoginPage.java:37)
-	at StepDefination.LoginStepDef.user_click_on_log_out_link(LoginStepDef.java:108)
-	at ✽.User click on Log out link(file:///C:/Java_Selenium_BDD_Framework/BDDFramework/src/test/resources/Features/LoginFeature.feature:10)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1504154691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1504154691'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link&quot; href=&quot;/logout&quot;&gt;...&lt;/a&gt; is not clickable at point (916, 28). Other element would receive the click: &lt;div id=&quot;ajaxBusy&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=126.0.6478.56)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+	at StepDefination.LoginStepDef.addScreenShot(LoginStepDef.java:218)
+</pre></div><a href='#' onClick='toggleBox("stack-trace493690178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace493690178'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [07ec00a49d1b9c87d3c685bd59e2ecd8, clickElement {id=f.FC6AC96546A2237D0561FF91C00442A3.d.6C99B07F7080494E745FB98CFBA7CD0D.e.18}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52507/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (07ec00a49d1b9c87d3c685bd59e2ecd8)] -&gt; link text: Logout]
-Session ID: 07ec00a49d1b9c87d3c685bd59e2ecd8
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54475}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54475/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy39.click(Unknown Source)
-	at PageObject.LoginPage.clickonlogout(LoginPage.java:37)
-	at StepDefination.LoginStepDef.user_click_on_log_out_link(LoginStepDef.java:108)
-	at ✽.User click on Log out link(file:///C:/Java_Selenium_BDD_Framework/BDDFramework/src/test/resources/Features/LoginFeature.feature:10)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+	at StepDefination.LoginStepDef.addScreenShot(LoginStepDef.java:218)
 </pre></div></td>
-<td>82</td>
+<td>33</td>
 <td>TestRunner.RunnerLogin@24269709</td></tr>
 </table><p>
 </body>

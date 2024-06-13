@@ -104,3 +104,91 @@
 [INFO ] 2024-06-13 17:33:49.068 [main] StepDef - Url opened
 [INFO ] 2024-06-13 17:33:50.010 [main] StepDef - Enter email and password successfully
 [INFO ] 2024-06-13 17:33:54.974 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 00:55:07.238 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 00:55:09.341 [main] StepDef - Url opened
+[INFO ] 2024-06-14 00:55:10.726 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 00:55:12.714 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 00:55:18.950 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 00:55:21.975 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 00:55:26.598 [main] StepDef - Url opened
+[INFO ] 2024-06-14 00:55:27.551 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 00:55:29.423 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 00:55:34.448 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 00:57:04.638 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 00:57:07.887 [main] StepDef - Url opened
+[INFO ] 2024-06-14 00:57:09.025 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 00:57:11.967 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 00:57:18.602 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 00:57:21.592 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 00:57:22.494 [main] StepDef - Url opened
+[INFO ] 2024-06-14 00:57:23.780 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 00:57:25.862 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 00:57:29.926 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:00:03.189 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:00:05.022 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:00:06.209 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:00:08.094 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:00:13.569 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:00:16.388 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:00:21.068 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:00:22.487 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:00:24.693 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:00:29.760 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:01:48.088 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:01:51.071 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:01:52.371 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:01:54.751 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:02:17.347 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:02:17.966 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:02:19.901 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:02:20.959 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:02:22.232 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:02:24.171 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:02:28.357 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:02:28.911 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:03:33.678 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:03:35.365 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:03:36.522 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:03:38.508 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:03:46.385 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:03:46.756 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:03:49.177 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:03:50.000 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:03:50.854 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:03:53.084 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:03:56.792 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:03:57.176 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:04:19.110 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:04:20.077 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:04:21.361 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:04:24.051 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:04:29.689 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:04:30.224 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:04:32.831 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:04:34.583 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:04:35.804 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:04:38.044 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:04:43.260 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:04:43.859 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:05:52.714 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:05:54.312 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:05:55.447 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:05:57.352 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:06:03.017 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:06:03.363 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:06:05.689 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:06:07.330 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:06:08.414 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:06:10.599 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:06:18.616 [main] StepDef - Click on logout successfully
+[INFO ] 2024-06-14 01:06:18.919 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:06:21.069 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:06:23.850 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:06:24.777 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:06:26.748 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:06:46.622 [main] StepDef - Browser closed
+[INFO ] 2024-06-14 01:06:48.234 [main] StepDef - Chrome Launched
+[INFO ] 2024-06-14 01:06:50.382 [main] StepDef - Url opened
+[INFO ] 2024-06-14 01:06:51.436 [main] StepDef - Enter email and password successfully
+[INFO ] 2024-06-14 01:06:53.927 [main] StepDef - Click on login successfully
+[INFO ] 2024-06-14 01:07:02.906 [main] StepDef - Browser closed

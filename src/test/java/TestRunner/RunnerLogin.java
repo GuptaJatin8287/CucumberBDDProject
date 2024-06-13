@@ -14,9 +14,9 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-		features ={"src/test/resources/Features/LoginFeature.feature"},
+		features ={"src/test/resources/Features"},
         glue = {"StepDefination"},
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
         //tags = "@Sanity",
         //plugin = {"pretty","html:target/cucumber-report/report1.html","json:target/cucumber-report/json_report.json","junit:target/cucumber-report/xml_report.xml"}

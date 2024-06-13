@@ -109,6 +109,12 @@ public class LoginStepDef extends BaseClass {
 		log.info("Click on logout successfully");
 
 	}
+	@Then("close browser")
+	public void close_browser() {
+		driver.close();
+		log.info("Browser closed");
+		driver.quit();
+	}
 
 	
 	
@@ -195,7 +201,7 @@ public class LoginStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	}
 	
-	//@After
+	@After
 	public void teardown(Scenario sc) throws IOException {
 		System.out.println("After method execute");
 		if(sc.isFailed()==true){
@@ -204,10 +210,9 @@ public class LoginStepDef extends BaseClass {
 			File target = new File("C:\\Java_Selenium_BDD_Framework\\BDDFramework\\target\\Screenshot\\Test1.png");
 			FileUtils.copyFile(source, target);
 		}
-		driver.quit();
 	}
 	
-	@AfterStep
+//	@AfterStep
 	public void addScreenShot(Scenario sc) {
 		final byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 		sc.attach(screenshot, "image/png", sc.getName());
